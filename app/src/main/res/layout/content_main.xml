@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+    <!-- Banner -->
+    <TextView
+        android:id="@+id/banner"
+        style="@style/standard_text_input_layout_style"
+        android:text="@string/banner_text" />
+
+    <!-- Birthday -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:hint="@string/birthday"
+        android:minEms="@integer/minimum_ems"
+        app:helperText="@string/default_birthday">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_birthday"
+            style="@style/standard_text_input_edit_text_style" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="standard_text_input_layout_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/standard_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.HeadlineSmall</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="helperTextTextAppearance">@style/TextAppearance.Material3.ActionBar.Subtitle</item>
+        <item name="helperTextTextColor">?attr/colorTertiary</item>
+    </style>
+
+    <style name="standard_text_input_edit_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:importantForAutofill">no</item>
+        <item name="android:inputType">datetime</item>
+    </style>
+
+    <style name="results_textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.HeadlineSmall</item>
+        <item name="android:layout_margin">@dimen/standard_margin</item>
+    </style>
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Count Down</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_text">Please enter your Birthday</string>
+    <string name="birthday">Birthday</string>
+    <string name="current_day">Current Day</string>
+    <string name="default_birthday">For example: 08/24/2005</string>
+    <string name="default_current_date">For example: 08/24/2005</string>
+    <string name="background">Background</string>
+    <string name="calculate">Calculate</string>
+    <string name="results">Results</string>
+
+    <string name="days_left">Days until your birthday:</string>
+    <string name="bmi_group">BMI Group:</string>
+
+    <plurals name="calcs_done">
+        <item quantity="one">Calculation done:</item>
+        <item quantity="other">Calculations done:</item>
+    </plurals>
+
+    <string name="action_about">About</string>
+
+    <string name="about_body">Plug in your birth date and see how many days until your next birthday!</string>
+    <string name="reset_calculation_count">Reset Calculation Count</string>
+
+    <string name="key_calc_count">CALC_COUNT</string>
+    <string name="key_days_until_birthday">days until birthday</string>
+    <string name="key_date">date key</string>
+
+    <string name="error_msg_date_not_valid">The date must be in numeric value (MM/DD/YYYY).</string>
+    <string name="details">Details</string>
+    <string name="back">Back</string>
+    <string name="days_until_birthday">Next Birthday in Days: </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preferences -->
+    <string name="night_mode_key">Night Mode</string>
+    <string name="night_mode_title">Night/Dark Mode</string>
+    <string name="night_mode_off">Never use Night/Dark Mode</string>
+    <string name="night_mode_on">Use Night/Dark Mode (unless disabled in OS Settings)</string>
+    <string name="display_header">Display\n</string>
+</resources>
